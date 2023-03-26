@@ -1,0 +1,73 @@
+/* 
+selectır:pseudo_class {
+}
+
+
+
+a:hover {
+    color: blueviolet;
+}
+
+a {
+    font-size: 24px;
+    
+}
+a:link {
+    color: green;
+}
+a:visited {
+    color: black;
+}
+a:active {
+    color: aqua ;
+}
+
+input {
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 4px;
+    border:1px solid black ;
+}
+input:focus {
+    outline: 0;
+    border: 2px solid red;
+}
+*/
+
+
+
+a {
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+    background-color: blue;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: aqua;
+    color: blueviolet;
+    border:  1px solid red;
+    
+}
+
+.para1 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+}
+.para1::first-line {
+color: brown;
+}
+.para1::first-letter {
+    color: blue;
+    font-size: 50px;
+}
+
+
+.para1::after {
+    color: rgb(83, 70, 163);
+    content: url("https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png");
+}

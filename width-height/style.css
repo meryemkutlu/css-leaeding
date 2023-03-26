@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#box-3 {
+    /* margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin: 50px 20px 50px 20px; 
+    top-bottom , right-left 
+    margin: 50px 20px ;*/
+    background: #a7a7a7;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+
+
+}
+
+div.box-1 {
+    width: 500px;
+    height: 200px;
+    border: 5px solid  black;
+    padding-left: 10px;
+}

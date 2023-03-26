@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box {
+    text-align: center;
+    background-color: #f2f2f2;
+    width: 200px;
+    border: 1px solid black;
+
+}
+.container {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    background-color: black;
+    height: 600px;
+    justify-content: space-evenly;
+
+}
+ 

@@ -1,0 +1,30 @@
+/*p:nth-child(1) {
+    color: red;
+}
+p:nth-child(4) {
+    color: rgb(31, 163, 135);
+}
+p:first-child {
+    background-color: aqua;
+}
+
+p:nth-child(even) {
+    color:blueviolet
+}
+
+p:nth-child(odd) {
+    color: violet;
+}*/
+
+
+ul {
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+ul li:nth-child(2n) {
+    color: aquamarine;
+}
+
+ul li:nth-child(2n+1) {
+    color: rgb(68, 27, 111);
+}
